@@ -6,7 +6,7 @@
 %define	pdir	XML
 %define	pnam	Filter-Namespace
 Summary:	XML::Filter::Namespace - strip all but a single namespace
-#Summary(pl):	
+Summary(pl):	XML::Filter::Namespace - usuniêcie wszystkich przestrzeni nazw oprócz jednej
 Name:		perl-XML-Filter-Namespace
 Version:	1.03
 Release:	1
@@ -27,9 +27,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module strips out everything in an XML document that does not belong
-in a specified namespace.  This often provides a view of the XML that
-is much clearer when multiple namespaces are in use.
+The XML::Filter::Namespace Perl module strips out everything in an XML
+document that does not belong in a specified namespace.  This often
+provides a view of the XML that is much clearer when multiple
+namespaces are in use.
 
 # %description -l pl
 # TODO
