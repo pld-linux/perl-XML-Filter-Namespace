@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-Namespace
+%define		pdir	XML
+%define		pnam	Filter-Namespace
 Summary:	XML::Filter::Namespace - strip all but a single namespace
 Summary(pl):	XML::Filter::Namespace - usuniêcie wszystkich przestrzeni nazw oprócz jednej
 Name:		perl-XML-Filter-Namespace
