@@ -28,7 +28,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The XML::Filter::Namespace Perl module strips out everything in an XML
-document that does not belong in a specified namespace.  This often
+document that does not belong in a specified namespace. This often
 provides a view of the XML that is much clearer when multiple
 namespaces are in use.
 
