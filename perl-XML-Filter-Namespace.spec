@@ -32,8 +32,11 @@ document that does not belong in a specified namespace.  This often
 provides a view of the XML that is much clearer when multiple
 namespaces are in use.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ Perla XML::Filter::Namespace usuwa z dokumentu XML wszystko to,
+co nie nale¿y do podanej przestrzeni nazw. Zwykle udostêpnia to du¿o
+bardziej przejrzysty widok XML-a w przypadku, kiedy u¿yto wielu
+przestrzeni nazw.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -57,6 +60,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%{perl_vendorlib}/%{pdir}/*/*.pm
+%{perl_vendorlib}/XML/*/*.pm
 %{_mandir}/man3/*
 %{_mandir}/man1/*
