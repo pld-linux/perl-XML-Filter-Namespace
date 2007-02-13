@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-Namespace
 Summary:	XML::Filter::Namespace - strip all but a single namespace
-Summary(pl.UTF-8):   XML::Filter::Namespace - usunięcie wszystkich przestrzeni nazw oprócz jednej
+Summary(pl.UTF-8):	XML::Filter::Namespace - usunięcie wszystkich przestrzeni nazw oprócz jednej
 Name:		perl-XML-Filter-Namespace
 Version:	1.03
 Release:	1
