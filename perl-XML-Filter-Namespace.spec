@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Filter-Namespace
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::Namespace - strip all but a single namespace
 Summary(pl.UTF-8):	XML::Filter::Namespace - usunięcie wszystkich przestrzeni nazw oprócz jednej
 Name:		perl-XML-Filter-Namespace
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	03ab0c24361eeb965243c8c262cbd7ea
+URL:		http://search.cpan.org/dist/XML-Filter-Namespace/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
