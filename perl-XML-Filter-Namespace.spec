@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Filter-Namespace
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::Namespace - strip all but a single namespace
 Summary(pl.UTF-8):	XML::Filter::Namespace - usunięcie wszystkich przestrzeni nazw oprócz jednej
 Name:		perl-XML-Filter-Namespace
